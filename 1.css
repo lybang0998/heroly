@@ -3,9 +3,197 @@
 	padding: 0;
 }
 body{
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Oswald', sans-serif;
-	font-family: 'Raleway', sans-serif;
-	font-family: 'Roboto', sans-serif;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+.navbar-default a.navbar-brand {
+    color: white;
+    font-size:  21px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-transform:  uppercase;
+    font-size:  14px;
+    color: white;
+    font-weight: 700;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    background:  none;
+    padding-top: 22px;
+    height: 95px;
+    border: none;
+    transition: all 0.4s;
+}
+
+.anhnen {
+    background:  url(https://www.digitalplatforms.co.za/wp-content/uploads/2015/11/Website-Design-Background.png);
+    height: 1080px;
+}
+
+.anhnen h1 {
+    padding-top: 30%;
+    font-size: 89px;
+    color:  white;
+    font-weight: 700;
+    margin-bottom:  30px;
+}
+
+.anhnen p {
+    font-size: 23px;
+    color:  white;
+    font-family:  times;
+}
+
+.anhnen .nutxuong {
+    border:  1px solid;
+    height:  50px;
+    width:  50px;
+}
+
+.anhnen i.fas.fa-angle-double-down.nutxuong {
+    border: 1px solid;
+    margin-top: 88px;
+    font-size: 38px;
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+    padding-top: 14px;
+    color:  white;
+}
+
+.anhnen i.fas.fa-angle-double-down.nutxuong:hover {cursor:  pointer;color:  grey;background:  white;transition:  all 0.4s ease 0s;}
+
+.about {background: #2E3137;height: 545px;padding: 95px;}
+
+.about h2 {
+    color: white;
+    font-size:  45px;
+    text-transform:  uppercase;
+    font-weight:  600;
+    padding:  34px;
+    font-family:  Source Sans Pro;
+}
+
+.about p {
+    color: white;
+    font-family:  Source Sans Pro;
+    font-size: 20px;
+}
+
+.taixuong {
+    background: url(http://www.intracopenta.com/images/event/background.jpg);
+    padding:  95px;
+}
+
+.taixuong h1 {
+    text-transform:  uppercase;
+    color:  white;
+    font-weight:  700;
+    margin-bottom:  34px;
+    font-size:  42px;
+}
+
+.taixuong p {
+    font-size: 24px;
+    color:  white;
+}
+
+.taixuong .btn.btn-default {
+    background:  none;
+    padding:  13px 25px;
+    margin-top:  20px;
+    color: #18bb9c;
+    text-transform:  uppercase;
+    font-weight: 600;
+    font-family: Source Sans Pro;
+    border-color:  #18bb9c;
+    font-size:  16px;
+}
+
+.taixuong .btn.btn-default:hover {
+    background:  #18bb9c;
+    color: #3C3C3C;
+    transition:  all 0.4s ease 0s;
+}
+.about a {
+    text-decoration:  none;
+}
+
+.contact {
+    background:  black;
+    padding:  197px;
+}
+
+.contact h1 {
+    color: white;
+    text-transform:  uppercase;
+    font-family: Source Sans Pro;
+    font-size:  44px;
+    font-weight: 700;
+}
+
+.contact p {
+    color:  white;
+    padding:  17px;
+    font-size:  17px;
+}
+
+
+.contact a.mail {
+    color: #18bb9c;
+}
+
+.contact a.mail:hover {
+    text-decoration:  none;
+    color:  white;
+}
+
+.nut a.btn.btn-default {color:  #18bb9c;margin: 45px 12px;background:  none;height: 37px;width: 107px;}
+
+.contact ul.nut {
+    list-style:  none;
+}
+
+.nut i .btn .fa-twitter {
+    float:  left;
+}
+
+.nut li {
+    float:  left;
+}
+
+.nut a.btn.btn-default:hover {
+    color:  black;
+    background:  #18bb9c;
+    transition:  all 0.4s;
+}
+
+.footer {
+    background:  black;
+    padding:  30px;
+}
+
+.footer p {
+    color:  white;
+    font-size:  17px;
+}
+
+
+
+nav.navbar.navbar-default.navbar-fixed-top.tienhoa {
+    background:  black;
+    height:  60px;
+    transition:  all 0.4s;
+    padding-top: 5px;
+}
+
+/*  .tienhoa li {
+   padding-top:  5px;
+   transition:  all 0.4s;
+}
+
+/.tienhoa a.navbar-brand {
+   padding-top:  15px;
+   transition:  all 0.4s;
+}  */
